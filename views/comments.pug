@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1 Community Comments
+
+  form(method="POST")
+    textarea(name="comment" required placeholder="Leave a message...")
+    br
+    button(type="submit") Post
+
+  ul
+    each c in comments
+      li= c

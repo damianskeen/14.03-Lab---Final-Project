@@ -1,0 +1,159 @@
+/* Brand colors */
+:root {
+  --dark-green: #10291D;
+  --saffron: #F7C64A;
+  --seasalt: #F7F7F7;
+  --black: #000000;
+}
+
+/* Brand guideline fonts */
+
+@font-face {
+  font-family: 'Italianno';
+  src: url('/fonts/Italianno-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Gloabl styles */
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--seasalt);
+  color: var(--black);
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Nav Bar */
+.navbar {
+  background: var(--dark-green);
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 65px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: var(--seasalt);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* Only change here → update nav font */
+.navbar a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar a:hover {
+  color: var(--saffron);
+}
+
+/*  Hero section */
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: var(--seasalt);
+}
+
+.hero-logo {
+  display: block;
+  width: 360px;
+  height: 360px;
+  margin: 0 auto 0 auto;
+}
+
+/* Only change here → update title font */
+.hero h1 {
+  font-family: 'Italianno', cursive;
+  font-size: 72px;
+  color: var(--dark-green);
+  margin-bottom: 10px;
+}
+
+/* Only change here → update paragraph font */
+.hero p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+/* CTA button */
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  background: var(--saffron);
+  color: var(--dark-green);
+  padding: 14px 22px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.cta:hover {
+  background: var(--dark-green);
+  color: var(--saffron);
+}
+
+/* footer */
+.footer {
+  background: var(--dark-green);
+  color: var(--seasalt);
+  padding: 25px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+/* Comments page */ 
+textarea {
+  width: 80%;
+  height: 120px;
+  font-size: 16px;
+  /* Only change → update font */
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  border: 2px solid var(--dark-green);
+  border-radius: 8px;
+}
+
+button {
+  background: var(--dark-green);
+  color: var(--saffron);
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  /* Only change → update button font */
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+  background: var(--saffron);
+  color: var(--dark-green);
+}

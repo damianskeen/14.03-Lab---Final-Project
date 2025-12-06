@@ -1,7 +1,22 @@
 doctype html
 html
   head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    title Downtown Donuts
+    link(rel="stylesheet" href="/css/styles.css")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
   body
+    header.navbar
+      img.logo(src="/images/logo-black.png" alt="Downtown Donuts Logo")
+
+      nav
+        ul
+          li: a(href="/") Home
+          li: a(href="/menu") Menu
+          li: a(href="/about") About Us
+          li: a(href="/comments") Comments
+
     block content
+
+    footer.footer
+      p © 2025 Downtown Donuts — Since 1992
