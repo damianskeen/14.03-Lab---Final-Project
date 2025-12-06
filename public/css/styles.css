@@ -65,7 +65,7 @@ body {
   font-weight: 400;
 }
 
-/* Only change here → update nav font */
+
 .navbar a {
   font-family: 'Montserrat', sans-serif;
 }
@@ -83,12 +83,12 @@ body {
 
 .hero-logo {
   display: block;
-  width: 360px;
-  height: 360px;
+  width: 400px;
+  height: 300px;
   margin: 0 auto 0 auto;
 }
 
-/* Only change here → update title font */
+
 .hero h1 {
   font-family: 'Italianno', cursive;
   font-size: 72px;
@@ -96,7 +96,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* Only change here → update paragraph font */
 .hero p {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
